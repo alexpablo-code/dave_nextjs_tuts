@@ -12,6 +12,8 @@ export default async function UsersPage() {
 
     const users = await usersData
 
+    console.log('Hello');
+
     const content = (
         <section>
             <h2>
@@ -31,7 +33,5 @@ export default async function UsersPage() {
         </section>
     )
 
-    return (
-        <div>page</div>
-    )
+    return content 
 }
